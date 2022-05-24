@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Search Bar | Javascript</title>
+</head>
+<body>
+
+	<div class="container">
+        <div class="wrapper">
+			<form>
+			  <div class="form-group">
+				<label for="exampleInputEmail1">Search Bar</label>
+				<input type="search" id="search" placeholder="Enter your text" data-search class="form-control">
+				<small id="emailHelp" class="form-text text-muted">We'll never store your search in browser history.</small>
+			  </div>
+			</form>
+        </div>
+		<br>
+        <div class="paragraph" style="">
+            <div class="user-cards" data-user-cards-container></div>
+				<template data-user-template>
+					<div class="card" >
+						<div class="card-header" data-header></div>
+						<div class="card-body" data-body></div>
+					</div>
+				</template>
+		</div>
+    </div>
+
+</body>
+</html>
